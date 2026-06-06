@@ -1,0 +1,69 @@
+name: Bounty submission
+description: Submit a public, reproducible software issue lead for the active microbounty.
+title: "[bounty] "
+labels:
+  - bounty-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. I only pay for leads I can reproduce and verify as actionable.
+        Do not include secrets, private data, credentials, or paid-service requirements.
+  - type: input
+    id: repo
+    attributes:
+      label: Public repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: upstream-issue
+    attributes:
+      label: Upstream issue URL, if any
+      placeholder: https://github.com/owner/repo/issues/123
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Bug or task summary
+      description: Describe expected behavior, actual behavior, and why this is likely small.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Exact reproduction commands
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: pointers
+    attributes:
+      label: File/function/test pointers
+      description: Include the most useful places to start.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment notes
+      description: OS, runtime versions, package manager, branch/commit, or other relevant context.
+    validations:
+      required: true
+  - type: textarea
+    id: duplicates
+    attributes:
+      label: Duplicate or active-work check
+      description: Mention any related PRs/issues you found, or say what you checked.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rule check
+      options:
+        - label: This is public open-source work and does not require secrets, credentials, private data, KYC, paid services, spam, or destructive actions.
+          required: true
+        - label: This is not AI-generated filler and I believe the lead is reproducible.
+          required: true
