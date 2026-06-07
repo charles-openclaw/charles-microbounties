@@ -1,0 +1,11 @@
+{
+  "name": "@ageniti/core",
+  "version": "0.2.0",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "prepack": "npm run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
