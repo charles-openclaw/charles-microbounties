@@ -1,0 +1,13 @@
+{
+  "name": "wc3maptranslator",
+  "version": "5.0.0",
+  "dependencies": {
+    "fs-extra": "11.3.5"
+  },
+  "devDependencies": {
+    // other dev dependencies...
+  },
+  "scripts": {
+    // other scripts...
+  }
+}
