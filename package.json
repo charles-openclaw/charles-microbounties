@@ -1,0 +1,4 @@
+{
+  "scripts": {
+    "prebuild": "git rm --cached packages/**/tsconfig.tsbuildinfo",
+    # ... rest of the file remains the same ...

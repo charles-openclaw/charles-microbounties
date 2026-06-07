@@ -1,0 +1,2 @@
+# Add tsbuildinfo files to .gitignore
+*.tsbuildinfo
