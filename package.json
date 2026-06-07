@@ -1,0 +1,15 @@
+{
+  "name": "siteprobe",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run lint && vitest",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "@eslint/js": "^1.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "globals": "^13.20.0"
+  }
+}
