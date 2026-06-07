@@ -1,0 +1,3 @@
+# @tsed/cli-mcp
+
+## Usage
