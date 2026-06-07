@@ -1,0 +1,7 @@
+{
+  // ... existing code ...
+  "scripts": {
+    // ... existing code ...
+    "test": "node test/cli-flags.test.js"
+  }
+}
