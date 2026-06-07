@@ -1,0 +1,4 @@
+[tool.poetry.dependencies]
+python = "^3.7"
+cryptography = "^3.4"
+requests = "^2.25"
