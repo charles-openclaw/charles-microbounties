@@ -1,0 +1,31 @@
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517"
+
+[project]
+name = "madsci-common"
+version = "0.8.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[project.dependencies]
+# existing dependencies...
+
+[project.optional-dependencies]
+# existing optional dependencies...
+
+[project.dev-dependencies]
+# existing dev dependencies...
+
+[tool.pdm]
+python = ">=3.8"
+
+[tool.setuptools]
+packages = ["madsci.common"]
+
+[tool.pdm.build]
+entry = "src/madsci_common/__init__.py"
+
+[tool.pdm.source]
+include = ["src/madsci_common"]
