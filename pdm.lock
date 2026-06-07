@@ -1,0 +1,19 @@
+[[package]]
+name = "madsci-common"
+version = "0.8.0"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+# existing dependencies...
+
+[[package]]
+name = "filelock"
+version = ">=3.12"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+# existing dependencies...
