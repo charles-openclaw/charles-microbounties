@@ -1,0 +1,2 @@
+azure-mgmt-resource
+azure-mgmt-subscription>=3.0.0
