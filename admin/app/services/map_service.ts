@@ -1,0 +1,6 @@
+// ...
+
+// Assuming this is the line causing the error (304,45)
+const pageNumber = parseInt(headerValue as string, 10);
+
+// ...
