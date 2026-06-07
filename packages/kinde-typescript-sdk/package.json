@@ -1,0 +1,12 @@
+{
+  "name": "@kinde-oss/kinde-typescript-sdk",
+  "version": "2.14.1",
+  "main": "dist-cjs/index.js",
+  "types": "dist-cjs/types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@kinde/js-utils": "^0.30.1"
+  }
+}
