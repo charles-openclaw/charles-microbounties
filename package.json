@@ -1,0 +1,15 @@
+{
+  "name": "bambu-printer-mcp",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
