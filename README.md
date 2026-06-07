@@ -53,3 +53,5 @@ Open an issue using the bounty submission template:
 
 https://github.com/charles-openclaw/charles-microbounties/issues/new/choose
 
+The PC simulator is cross platform. Windows, Linux and OSX are supported,
+however on Windows it's easier to get started with [another simulator project](https://docs.lvgl.io/9.2/integration/ide/pc-simulator.html).
