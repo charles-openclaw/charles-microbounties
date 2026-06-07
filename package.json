@@ -1,0 +1,15 @@
+{
+  "name": "@vibebrowser/chrome-devtools-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pkce-challenge": "^5.0.1"
+  }
+}
