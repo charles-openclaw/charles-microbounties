@@ -1,0 +1,9 @@
+[tool.poetry.dependencies]
+python = "^3.8"
+# add other existing dependencies here
+
+[tool.poetry.dev-dependencies]
+# add other existing dev dependencies here
+
+[tool.poetry.dependencies]
+click = ">=8.0,<9.0"
