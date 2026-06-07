@@ -1,0 +1,3 @@
+[tool.poetry.dependencies]
+# ... existing dependencies ...
+google-genai = "^1.0.0"
