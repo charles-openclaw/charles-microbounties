@@ -1,0 +1,3 @@
+Remove tracked tsbuildinfo files and add to .gitignore
+
+Resolves https://github.com/mmethodz/dreamgraph/issues/16
