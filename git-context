@@ -1,0 +1,11 @@
+def file_contents(dir_path, ignored=None):
+    if ignored is None:
+        ignored = set()
+    for root, dirs, files in os.walk(dir_path):
+        for f in files:
+            if f.startswith('.') or should_ignore(f, ignored):
+                continue
+            file_path = os.path.join(root, f)
+            if os.path.isfile(file_path):
+                with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
+                    yield file_path, file.read()
