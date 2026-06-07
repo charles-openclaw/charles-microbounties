@@ -1,0 +1,12 @@
+{
+  "name": "verify-mail-api",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^9.39.1",
+    "typescript": "^4.9.4"
+  }
+}
