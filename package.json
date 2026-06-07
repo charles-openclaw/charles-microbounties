@@ -1,0 +1,24 @@
+{
+  "name": "@tscircuit/schematic-trace-solver",
+  "version": "0.0.63",
+  "description": "",
+  "main": "lib/index.ts",
+  "scripts": {
+    "build": "tsup-node lib/index.ts --format esm --dts",
+    "format": "prettier --write .",
+    "format:check": "prettier --list-different ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "tsup": "^6.3.0",
+    "typescript": "^5.0.4" // added as dev dependency
+  },
+  "peerDependencies": {
+    "bun-match-svg": "^0.0.9",
+    "graphics-debug": "^0.0.62",
+    "typescript": "^5.0.4" // keep peer dependency
+  }
+}
