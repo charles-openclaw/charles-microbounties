@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-mcp-server",
+  "version": "1.12.0",
+  "dependencies": {
+    "@lg-mcp/embeddable-uis": "^1.0.0",
+    "@lg-mcp/hooks": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    // other dev dependencies
+  }
+}
