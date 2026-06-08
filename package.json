@@ -1,0 +1,23 @@
+{
+  "name": "enhanced-postgres-mcp-server",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/GarethCott/enhanced-postgres-mcp-server",
+  "bugs": {
+    "url": "https://github.com/GarethCott/enhanced-postgres-mcp-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarethCott/enhanced-postgres-mcp-server.git"
+  },
+  "dependencies": {
+    // ... existing dependencies ...
+  }
+}
