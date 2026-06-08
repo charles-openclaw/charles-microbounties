@@ -1,0 +1,25 @@
+{
+  "name": "date-fns",
+  "version": "4.4.0",
+  "description": "...",
+  "main": "...",
+  "scripts": {
+    ...
+  },
+  "keywords": [],
+  "author": "...",
+  "license": "...",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/date-fns/date-fns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/date-fns/date-fns/issues"
+  },
+  "dependencies": {
+    ...
+  },
+  "devDependencies": {
+    ...
+  }
+}
