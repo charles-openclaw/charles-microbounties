@@ -1,0 +1,12 @@
+{
+  "name": "@tiangong-ai/mcp-server",
+  "version": "0.0.18",
+  "homepage": "https://github.com/linancn/tiangong-ai-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linancn/tiangong-ai-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linancn/tiangong-ai-mcp/issues"
+  }
+}
