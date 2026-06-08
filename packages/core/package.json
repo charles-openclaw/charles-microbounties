@@ -1,0 +1,29 @@
+{
+  "name": "@webjsdev/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    },
+    "./directives": {
+      "types": "./directives/index.d.ts"
+    },
+    "./context": {
+      "types": "./context/index.d.ts"
+    },
+    "./task": {
+      "types": "./task/index.d.ts"
+    },
+    "./client-router": {
+      "types": "./client-router/index.d.ts"
+    },
+    "./lazy-loader": {
+      "types": "./lazy-loader/index.d.ts"
+    },
+    "./testing": {
+      "types": "./testing/index.d.ts"
+    }
+  }
+}
