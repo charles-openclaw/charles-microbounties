@@ -1,0 +1,20 @@
+{
+  "name": "scorecard-ai",
+  "version": "3.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/scorecard-ai/scorecard-node.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scorecard-ai/scorecard-node#readme",
+  "bugs": {
+    "url": "https://github.com/scorecard-ai/scorecard-node/issues"
+  }
+}
