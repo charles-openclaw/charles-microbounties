@@ -1,0 +1,12 @@
+{
+  "name": "@socketsecurity/mcp",
+  "version": "0.0.18",
+  "repository": {
+    "url": "https://github.com/SocketDev/socket-mcp",
+    "type": "git"
+  },
+  "homepage": "https://github.com/SocketDev/socket-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/SocketDev/socket-mcp/issues"
+  }
+}
