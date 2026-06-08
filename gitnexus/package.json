@@ -1,0 +1,19 @@
+{
+  "name": "gitnexus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
+    "onnxruntime-common": "^1.26.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.25.3"
+  }
+}
