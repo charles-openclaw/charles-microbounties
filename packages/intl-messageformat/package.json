@@ -1,0 +1,22 @@
+{
+  "name": "intl-messageformat",
+  "version": "11.2.8",
+  "description": "Internationalization (i18n) and formatting (ICU message format) for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "FormatJS",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formatjs/formatjs.git"
+  },
+  "homepage": "https://formatjs.io/",
+  "bugs": {
+    "url": "https://github.com/formatjs/formatjs/issues"
+  }
+}
