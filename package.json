@@ -1,0 +1,23 @@
+{
+  "name": "rollup-plugin-preserve-shebangs",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elado/rollup-plugin-preserve-shebangs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elado/rollup-plugin-preserve-shebangs/issues"
+  },
+  "homepage": "https://github.com/elado/rollup-plugin-preserve-shebangs#readme",
+  "devDependencies": {
+    "rollup": "^2.58.1"
+  }
+}
