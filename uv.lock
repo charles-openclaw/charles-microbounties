@@ -1,0 +1,36 @@
+[
+    {
+        "name": "fastapi-startkit",
+        "version": "0.31.0",
+        "category": "main",
+        "optional": false,
+        "python-versions": "*",
+        "platform": "*",
+        "extras": [
+            "database",
+            "fastapi",
+            "sqlite"
+        ],
+        "markers": "python_version >= '3.7'",
+        "dependencies": [
+            {
+                "name": "aiosqlite",
+                "version": "*",
+                "category": "main",
+                "optional": false,
+                "python-versions": "*",
+                "platform": "*",
+                "markers": "python_version >= '3.7'"
+            },
+            {
+                "name": "sqlalchemy",
+                "version": "*",
+                "category": "main",
+                "optional": false,
+                "python-versions": "*",
+                "platform": "*",
+                "markers": "python_version >= '3.7'"
+            }
+        ]
+    }
+]
