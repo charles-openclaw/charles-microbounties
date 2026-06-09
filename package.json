@@ -1,0 +1,16 @@
+{
+  "name": "@agenticmail/enterprise",
+  "version": "0.5.615",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js", // updated from "./dist/index.cjs"
+      "types": "./dist/index.d.ts" // this file needs to be generated
+    }
+  },
+  "scripts": {
+    // add a script to generate the type definition file
+    "build:types": "tsc --outDir dist --declaration"
+  }
+}
