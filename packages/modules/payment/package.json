@@ -1,0 +1,27 @@
+{
+  "name": "@medusajs/payment",
+  "version": "2.15.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "medusa-build",
+    "build:watch": "medusa-build --watch"
+  },
+  "keywords": [],
+  "author": "Medusa",
+  "license": "MIT",
+  "devDependencies": {
+    "@medusajs/medusa-js": "^2.15.5"
+  },
+  "peerDependencies": {
+    "@medusajs/medusa-js": "^2.15.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medusajs/medusa.git"
+  },
+  "homepage": "https://medusajs.com/",
+  "bugs": {
+    "url": "https://github.com/medusajs/medusa/issues"
+  }
+}
